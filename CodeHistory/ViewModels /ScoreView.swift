@@ -31,7 +31,7 @@ struct ScoreView: View {
                 .font(.system(size: 30))
                 Spacer()
                 NavigationLink(destination: GameView(),
-                               label: { BottomTextView(str: "Ok, Let's Go!")
+                               label: { BottomTextView(str: "Play Again!")
                     
                 })
                 
