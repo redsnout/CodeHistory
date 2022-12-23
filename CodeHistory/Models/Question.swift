@@ -28,12 +28,28 @@ struct Question: Hashable {
                         "Swift"],
                      correctAnswerIndex: 0),
            
-            Question(questionText: "Who is the smellest person of all time?",
+            Question(questionText: "Who is the smelliest person of all time?",
                      possibleAnswers: [
                         "Me",
                         "Ally",
                         "My mom",
                         "Colty"],
-                     correctAnswerIndex: 1)
+                     correctAnswerIndex: 1),
+           
+           Question(questionText: "What would have been a great dog name?",
+                    possibleAnswers: [
+                       "Spot",
+                       "Lobo",
+                       "Wolf",
+                       "Frank"],
+                    correctAnswerIndex: 1),
+           
+           Question(questionText: "Who wrote the C Book?",
+                    possibleAnswers: [
+                       "I did",
+                       "Kernighan & Ritchie",
+                       "Carnigan & Ricky",
+                       "Corrigan & Richards"],
+                    correctAnswerIndex: 1)
         ]
 }
