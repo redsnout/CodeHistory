@@ -50,6 +50,14 @@ struct Question: Hashable {
                        "Kernighan & Ritchie",
                        "Carnigan & Ricky",
                        "Corrigan & Richards"],
-                    correctAnswerIndex: 1)
+                    correctAnswerIndex: 1),
+           
+            Question(questionText: "What does HTML Stand for?",
+                    possibleAnswers: [
+                       "Hyper Trainer Marking Language",
+                       "Hyper Text Marketing Language",
+                       "Hyper Text Markup Language",
+                       "Hyper Text Markup Leveler"],
+                       correctAnswerIndex: 3),
         ]
 }
